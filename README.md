@@ -1,6 +1,6 @@
 # WeatherNet 🌤️
 
-WeatherNet is a simple web application built with HTML, JavaScript, and Bootstrap, designed to fetch and display current weather information for any city in the world. Using the OpenWeatherMap API, it provides users with real-time temperature, humidity, and general weather conditions in an easy-to-use interface.
+WeatherNet is a simple web application built with HTML, JavaScript, and Bootstrap, designed to fetch and display current weather information for any city in the world. Using the WeatherAPI, it provides users with real-time temperature, humidity, and general weather conditions in an easy-to-use interface.
 
 ## Features
 - **City Search**: Users can enter any city name to retrieve its current weather data.
@@ -17,9 +17,14 @@ WeatherNet is a simple web application built with HTML, JavaScript, and Bootstra
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/WeatherNet.git
+   git clone https://github.com/chriswilder3/WeatherNet-App.git
    cd WeatherNet
 2. **Obtain an API Key**:
-   Sign up at OpenWeatherMap to get a free API key.
-   Replace YOUR_API_KEY in index.html with your actual API key.
-3. Run the weather.html locally
+-   Sign up at WeatherAPI to get a free API key.
+-   Replace YOUR_API_KEY in weather.html with your actual API key.
+  
+4. Run the weather.html locally
+
+### Key Updates:
+1. **API Name Change**: Updated all mentions of the OpenWeatherMap API to WeatherAPI.
+2. **Getting Started Instructions**: Changed the API sign-up instructions to point to WeatherAPI, reflecting the new steps needed to get an API key.
